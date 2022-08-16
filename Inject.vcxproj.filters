@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="Android.mk" />
+    <None Include="Application.mk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="Ptrace.h" />
+    <ClInclude Include="Inject.h" />
+    <ClInclude Include="ProcessInject.h" />
+    <ClInclude Include="Tracer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Utils.cpp" />
+    <ClCompile Include="Ptrace.cpp" />
+    <ClCompile Include="Inject.cpp" />
+    <ClCompile Include="ProcessInject.cpp" />
+    <ClCompile Include="Tracer.cpp" />
+  </ItemGroup>
+</Project>

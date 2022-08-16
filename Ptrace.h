@@ -1,0 +1,11 @@
+﻿#pragma once
+
+
+
+#ifndef ANDROIDINJECT_PTRACE_H
+#define ANDROIDINJECT_PTRACE_H
+
+
+
+
+#endif //ANDROIDINJECT_PTRACE_H
